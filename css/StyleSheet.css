@@ -1,0 +1,135 @@
+﻿@media (min-width:700px){
+header,section,form,input{
+    margin:0px;
+    padding:0px;
+    position:relative;
+     
+    
+}
+html{
+    background:rgb(79, 176, 180);
+             background:-webkit-linear-gradient(top,rgb(34, 128, 198) 0%,rgb(79, 176, 180) 80%,rgb(255, 255, 255) 100%);
+                background:-moz-linear-gradient(top,rgb(34, 128, 198) 0%,rgb(79, 176, 180) 80%,rgb(255, 255, 255) 100%);
+                 background:-ms-linear-gradient(top,rgb(34, 128, 198) 0%,rgb(79, 176, 180) 80%,rgb(255, 255, 255) 100%);
+                    background:-o-linear-gradient(top,rgb(34, 128, 198) 0%,rgb(79, 176, 180) 80%,rgb(255, 255, 255) 100%);
+                         background:linear-gradient(top,rgb(34, 128, 198) 0%,rgb(79, 176, 180) 80%,rgb(255, 255, 255) 100%);
+                 background-repeat:no-repeat;
+                 height:100%;
+}
+body {
+            margin: 0 auto;
+            padding-top: 2%;
+            padding-left: 2%;
+            padding-right:2%;
+            width: 80%;
+           background:white;
+            min-height:100%;
+        }
+            
+        header{
+            display:block;
+            height:4%;
+            margin:0;
+            padding:0px;
+            position:absolute;
+            width:100%;
+           
+        }
+         
+        #timeNow{
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, serif;
+            font-size:0.6em;
+        }
+        form {
+            margin-bottom: 5%;
+            position: static;
+                box-sizing: content-box;
+                display:block;
+               align-content:center;
+        }
+
+        input {
+            margin-left:25%;
+            
+        }
+
+        .search {
+            margin-left: 10px;
+            background-image:url('../imgs/lupa.png');
+            
+            padding-left:5px;
+            border-radius:5px 5px;
+            background-repeat:no-repeat;
+            width:2.3em;height:1.65em;
+            background-size:2em 1.3em;
+            box-shadow:#6b8167  0px -0.5px 3px inset;
+        }
+        
+        .search:not(*:root){
+            padding-bottom: 4px;
+        }
+        #inputText{
+            border:1px thin black;
+            border-radius:5px 5px ;  
+            padding-left:10px;
+            height:100px;width:76%;
+            height:1.5em;
+            border:1px solid black;
+            width:35%;
+            
+            
+        }
+	
+      h2:hover{
+          font-family:'Plantagenet Cherokee';
+          font-size:small;
+          color:rgb(79, 176, 180);
+          
+          text-shadow:2px 2px 10px #ffd800;
+      }
+     section{
+        text-align:right;
+        font-size:12px;
+        font-style:italic;
+         padding-right:10px;
+
+     }
+     h2,p,section{
+         
+         border:1px solid #6a7780;
+         border-radius:5px 5px;
+         
+         margin:0px;
+         margin-bottom:5px;
+     }
+     h2{
+         color:rgba(229, 167, 46, 0.84);
+        font-size:0.8em;
+        font-family:'Comic Sans MS';
+        text-decoration:none; 
+         padding-left:20px;
+		 display:block;
+         
+     }
+     article{
+         margin-bottom:20px;
+     }
+     p{
+         padding:20px 10px 10px 50px;
+         
+         height:80px;
+         
+         
+     }
+     p::first-letter{
+         font:small-caps;
+         font-size:20px;
+         font-weight:bold;
+     }
+     div{
+         margin-top:30px;
+         width:100%;
+        
+     }
+    }
+    
